@@ -1,0 +1,25 @@
+{
+  "name": "es6-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial ES5 a ES6",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotehector/ES5-to-ES6-tutorial.git"
+  },
+  "author": "hector menduiña",
+  "homepage": "https://github.com/kotehector/ES5-to-ES6-tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0",
+    "webpack": "^3.4.1"
+  }
+}
